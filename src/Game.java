@@ -6,10 +6,12 @@ public class Game {
 
         Card card = new Card();
         Card card2 = new Card(0, 6);
+        Deck deck = new Deck();
 
         card.setRank(11);
 
-        System.out.println(card.toString());
-        System.out.println(card2.toString());
+
+
+        System.out.println(deck.toString());
     }
 }
