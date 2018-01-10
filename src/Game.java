@@ -10,7 +10,8 @@ public class Game {
 
         card.setRank(11);
 
-        //Hopefully you all see this message
+        //If you can see this, then you are my hero. +65 extra credit points
+        //But you all got a 0/65 on not annoying me.
 
     }
 }
