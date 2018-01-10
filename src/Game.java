@@ -10,8 +10,6 @@ public class Game {
 
         card.setRank(11);
 
-
-
-        System.out.println(deck.toString());
+        
     }
 }
