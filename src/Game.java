@@ -7,11 +7,11 @@ public class Game {
         Card card = new Card();
         Card card2 = new Card(0, 6);
         Deck deck = new Deck();
+        deck.shuffle();
 
-        card.setRank(11);
-
-        //If you can see this, then you are my hero. +65 extra credit points
-        //But you all got a 0/65 on not annoying me.
+        System.out.println(deck.deal());
+        System.out.println(deck.deal());
+        System.out.println(deck.deal());
 
     }
 }
