@@ -15,6 +15,10 @@ public class Deck {
         }
     }
 
+    public int cardsLeft(){
+      return 52 - cardsUsed;
+    }
+
     //Shuffle the Deck
     public void shuffle(){
         for(int i = 51; i > 0; i--) {
@@ -34,9 +38,7 @@ public class Deck {
             cardsUsed++;
         }
         else {
-            System.out.println("No More Cards in Deck. Re-shuffling");
-            shuffle();
-            deal();
+            System.out.println("No More Cards in Deck.");
         }
 
         return card;

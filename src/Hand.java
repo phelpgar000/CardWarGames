@@ -42,5 +42,15 @@ public class Hand {
 
     }
 
+    public int getCardCount(){
+
+        return hand.size();
+    }
+
+    public String toString(){
+
+        return hand.toString();
+    }
+
 
 }
